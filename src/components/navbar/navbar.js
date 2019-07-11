@@ -4,16 +4,29 @@ import './navbar.css';
 export default function Navbar(){
    
    return(
-    
-     <nav className="Navbar">
-           <ul className="nav-links">
-           <li>
-              <a href="/" className="nav-link">Home </a>
+    <nav className="navbar">
+       
+  
 
-          </li>
-           </ul>
+  
+     <ul className="nav-links">
+       <li>
+           <a href="/" className="nav-link">Home </a>
 
-     </nav>
+       </li>
+       <li>
+           <a href="/" className="nav-link">About  </a>
+           
+       </li>
+       
+       <li>
+           <a href="/" className="nav-link active">Tours </a>
+           
+       </li>
+     </ul>
+
+
+ </nav>
 
    );
 
